@@ -1,4 +1,4 @@
-# PS1 controller emulator
+# PicoCtrl --- A PS1 controller emulator
 This is an emulator for the PS1 digital controller using the RP2040 in USB CDC ACM mode, based on the PicoMemcard POC controller simulator example
 You can also use a PicoMemcard board (as the PS1 memory card and controller share the same bus), however if you use a RP2040-Zero you will need to edit CMakeLists.txt. See [Notes](#Notes) for more info. Make sure you desolder the 3.3V line while connecting USB to your PC
 connected to serial)
