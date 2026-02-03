@@ -3,7 +3,7 @@ This is an emulator for the PS1 digital controller using the RP2040 in USB CDC A
 You can also use a PicoMemcard board (as the PS1 memory card and controller share the same bus), however if you use a RP2040-Zero you will need to edit CMakeLists.txt. See [Notes](#Notes) for more info. Make sure you desolder the 3.3V line while connecting USB to your PC
 connected to serial)
 ## Usage
-- Compile the program and flash it to your Pico (there isn't a prebuilt UF2 yet)
+- Compile the program and flash it to your Pico 
 - Connect the Pico to your PC with a USB data cable
 - Use a terminal emulator (such as ```screen```) to connect to the serial port
   - For example: ```screen /dev/ttyACM0```
